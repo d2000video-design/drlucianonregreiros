@@ -31,7 +31,7 @@ body{
 }
 
 .logo{
-    width:320px;
+    width:260px;
     display:block;
 }
 
@@ -39,11 +39,13 @@ body{
     display:grid;
     grid-template-columns:1fr 1.1fr;
     gap:80px;
-    align-items:center;
+    align-items:start;
+    margin-top:-120px;
 }
 
 .hero-copy{
     max-width:620px;
+    padding-top:0;
 }
 
 .eyebrow{
