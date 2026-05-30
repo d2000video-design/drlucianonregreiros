@@ -35,10 +35,10 @@ body{
 
 .hero-grid{
   display:grid;
-  grid-template-columns:.9fr 1.15fr;
-  gap:90px;
+  grid-template-columns:1fr 1.1fr;
+  gap:80px;
   align-items:center;
-  margin-top:-55px;
+  margin-top:-85px;
 }
 
 .hero-copy{
