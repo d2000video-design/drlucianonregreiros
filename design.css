@@ -302,15 +302,17 @@ footer p{
 @media(max-width:980px){
 
   .hero{
-    padding:22px 22px 42px;
+    padding:22px 20px 50px;
   }
 
   .navbar{
     margin-bottom:24px;
+    text-align:center;
   }
 
   .logo{
-    width:185px;
+    width:190px;
+    margin:auto;
   }
 
   .hero-grid,
@@ -322,18 +324,47 @@ footer p{
   }
 
   .hero-grid{
-    gap:28px;
+    gap:0;
     margin-top:0;
   }
 
+  .hero-visual{
+    order:1;
+    margin-top:12px;
+  }
+
+  .hero-copy{
+    order:2;
+    background:rgba(250,248,244,.96);
+    margin:-38px 10px 0;
+    padding:34px 26px 28px;
+    border-radius:28px;
+    position:relative;
+    z-index:2;
+    box-shadow:0 22px 60px rgba(0,0,0,.08);
+  }
+
+  .photo-frame{
+    border-radius:28px;
+    box-shadow:0 28px 70px rgba(45,35,22,.16);
+  }
+
+  .eyebrow{
+    font-size:10px;
+    letter-spacing:2.4px;
+    line-height:1.8;
+  }
+
   .hero-copy h1{
-    font-size:44px;
+    font-size:38px;
     line-height:.98;
+    margin:18px 0 16px;
   }
 
   .hero-copy h2{
-    font-size:23px;
-    line-height:1.25;
+    font-size:21px;
+    line-height:1.28;
+    margin-bottom:18px;
   }
 
   .hero-copy p,
@@ -344,17 +375,33 @@ footer p{
     line-height:1.7;
   }
 
-  .photo-frame{
-    border-radius:24px;
+  .hero-actions{
+    flex-direction:column;
+    align-items:flex-start;
+    gap:12px;
+    margin-top:26px;
+  }
+
+  .hero-actions span{
+    font-size:14px;
+  }
+
+  .primary-button{
+    padding:15px 26px;
+    font-size:15px;
   }
 
   .prestige-strip{
-    gap:20px;
-    padding:34px 22px;
+    gap:18px;
+    padding:36px 22px;
   }
 
   .prestige-item{
-    padding:30px 28px;
+    padding:28px 26px;
+  }
+
+  .prestige-item strong{
+    font-size:24px;
   }
 
   .editorial-section,
@@ -366,12 +413,12 @@ footer p{
   .editorial-grid h2,
   .location-copy h2,
   .contact-panel h2{
-    font-size:31px;
-    line-height:1.15;
+    font-size:30px;
+    line-height:1.18;
   }
 
   .location-panel{
-    padding:34px 26px;
+    padding:34px 24px;
   }
 
   .address-box{
@@ -389,22 +436,10 @@ footer p{
     overflow-wrap:anywhere;
   }
 
-  .hero-actions{
-    flex-direction:column;
-    align-items:flex-start;
-    gap:14px;
-  }
-
-  .primary-button{
-    padding:15px 26px;
-    font-size:15px;
-  }
-
   .whatsapp-float{
     right:14px;
     bottom:14px;
     padding:12px 18px;
     font-size:14px;
   }
-
 }
