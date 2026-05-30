@@ -17,7 +17,7 @@ body{
 
 .hero{
   min-height:100vh;
-  padding:22px 7% 50px;
+  padding:25px 7% 50px;
   background:
     radial-gradient(circle at 20% 20%, rgba(194,164,98,.08), transparent 35%),
     radial-gradient(circle at 80% 70%, rgba(194,164,98,.05), transparent 35%),
@@ -29,7 +29,7 @@ body{
 }
 
 .logo{
-  width:200px;
+  width:230px;
   display:block;
 }
 
@@ -38,11 +38,11 @@ body{
   grid-template-columns:1fr 1.1fr;
   gap:80px;
   align-items:center;
-  margin-top:-60px;
+  margin-top:-85px;
 }
 
 .hero-copy{
-  max-width:540px;
+  max-width:620px;
 }
 
 .eyebrow{
@@ -55,24 +55,24 @@ body{
 
 .hero-copy h1{
   font-family:'Cinzel',serif;
-  font-size:72px;
+  font-size:82px;
   line-height:.95;
-  margin:20px 0;
+  margin:24px 0;
   font-weight:700;
 }
 
 .hero-copy h2{
   font-family:'Cinzel',serif;
-  font-size:28px;
+  font-size:34px;
   line-height:1.2;
   color:#8b7345;
-  margin-bottom:24px;
+  margin-bottom:28px;
   font-weight:500;
 }
 
 .hero-copy p{
-  font-size:18px;
-  line-height:1.8;
+  font-size:19px;
+  line-height:1.9;
   color:#4f4f4f;
 }
 
@@ -108,9 +108,9 @@ body{
 }
 
 .photo-frame{
-  border-radius:40px;
+  border-radius:34px;
   overflow:hidden;
-  box-shadow:0 55px 120px rgba(0,0,0,.16);
+  box-shadow:0 40px 100px rgba(0,0,0,.12);
 }
 
 .photo-frame img{
